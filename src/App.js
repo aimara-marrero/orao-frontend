@@ -64,7 +64,7 @@ function App() {
           <Route path="/user" element={<UserProfilePage />} />
           <Route path="/user/my-orders" element={<UserOrdersPage />} />
           <Route path="/user/cart-details" element={<UserCartDetailsPage />} />
-          <Route path="/admin/order-details" element={<UserOrdersDetailsPage />} />
+          <Route path="/user/order-details" element={<UserOrdersDetailsPage />} />
 
         </Route>
 
