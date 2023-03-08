@@ -5,8 +5,10 @@ const ProductCarouselComponent = () => {
     <Carousel>
       <Carousel.Item>
         <img
+          crossorigin="anonymous"
           className="d-block w-100"
-          src="../../../../img/man/young-blonde-man-with-sunglasses-beach.jpg"
+          style = {{ objectFit:"contain"}}
+          src="/img/man/young-blonde-man-with-sunglasses-beach.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -16,8 +18,10 @@ const ProductCarouselComponent = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
+          crossorigin="anonymous"
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          style = {{ objectFit:"contain"}}
+          src="/img/man/portrait-man-wearing-beige-jacket-cap-sunglasses-isolated-background.jpg"
           alt="Second slide"
         />
 
@@ -26,20 +30,7 @@ const ProductCarouselComponent = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
     </Carousel>
   )
 }
