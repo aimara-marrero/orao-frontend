@@ -1,12 +1,12 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 const ProductCarouselComponent = () => {
-    return (
-        <Carousel>
+  return (
+    <Carousel>
       <Carousel.Item>
         <img
           className="d-block w-100"
-         src='/public/logo192.png'
+          src="../../../../img/man/young-blonde-man-with-sunglasses-beach.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -41,7 +41,7 @@ const ProductCarouselComponent = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
-    )
+  )
 }
 
 export default ProductCarouselComponent
