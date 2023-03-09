@@ -1,6 +1,7 @@
 import CategoryCardComponent from "../components/user/CategoryCardComponent";
 import ProductCarouselComponent from "../components/user/ProductCarouselComponent";
 import { Row, Container } from "react-bootstrap";
+
 const HomePage = () => {
     const categories = [
         "Hombre",
@@ -17,6 +18,7 @@ const HomePage = () => {
                     }
                 </Row>
             </Container>
+        
         </>
 
     )
