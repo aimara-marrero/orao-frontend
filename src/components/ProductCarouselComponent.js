@@ -5,7 +5,7 @@ const ProductCarouselComponent = () => {
     <Carousel>
       <Carousel.Item>
         <img
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
           className="d-block w-100"
           style = {{ objectFit:"contain"}}
           src="/img/man/young-blonde-man-with-sunglasses-beach.jpg"
@@ -18,7 +18,7 @@ const ProductCarouselComponent = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
           className="d-block w-100"
           style = {{ objectFit:"contain"}}
           src="/img/man/portrait-man-wearing-beige-jacket-cap-sunglasses-isolated-background.jpg"

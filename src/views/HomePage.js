@@ -1,5 +1,5 @@
-import CategoryCardComponent from "../components/user/CategoryCardComponent";
-import ProductCarouselComponent from "../components/user/ProductCarouselComponent";
+import CategoryCardComponent from "../components/CategoryCardComponent";
+import ProductCarouselComponent from "../components/ProductCarouselComponent";
 import { Row, Container } from "react-bootstrap";
 
 const HomePage = () => {
