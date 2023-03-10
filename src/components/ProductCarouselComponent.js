@@ -8,7 +8,7 @@ const ProductCarouselComponent = () => {
           crossOrigin="anonymous"
           className="d-block w-100"
           style = {{ objectFit:"contain"}}
-          src="/img/man/young-blonde-man-with-sunglasses-beach.jpg"
+          src="/image/young-blonde-man-with-sunglasses-beach.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,7 +21,7 @@ const ProductCarouselComponent = () => {
           crossOrigin="anonymous"
           className="d-block w-100"
           style = {{ objectFit:"contain"}}
-          src="/img/man/portrait-man-wearing-beige-jacket-cap-sunglasses-isolated-background.jpg"
+          src="image/portrait-man-wearing-beige-jacket-cap-sunglasses-isolated-background.jpg"
           alt="Second slide"
         />
 

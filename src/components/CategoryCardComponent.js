@@ -4,8 +4,10 @@ import { LinkContainer } from "react-router-bootstrap"
 const CategoryCardComponent = ({ category, idx }) => {
 
     const images = [
-        "/img/man/closeup-shot-laughing-male-model-outside-sun-rays.jpg",
-        "/img/woman/confident-caucasian-girl-dark-sunglasses-looking-distance-outdoor-shot-good-humoured-fashionable-woman.jpg"
+        "image/Epoch-Eyeware-Delta+Sunglasses.jpg",
+        "image/61VkGq4j6sL._UL1500_.jpg",
+        "image/21ufZJ5VCVL._SR600,315_PIWhiteStrip,BottomLeft,0,35_SCLZZZZZZZ_FMpng_BG255,255,255.png",
+        "image/Epoch-Eyeware-Delta+Sunglasses.jpg",
     ]
     return (
         <Card >

@@ -35,6 +35,7 @@ import AdminEditProductPage from "./views/admin/AdminEditProductPage";
 import AdminCreateProductPage from "./views/admin/AdminCreateProductPage";
 import AdminChatsPage from "./views/admin/AdminChatsPage";
 import AdminAnalyticsPage from "./views/admin/AdminAnalyticsPage";
+import ScrollToTop from "./utils/ScrollToTop";
 
 
 
@@ -45,6 +46,7 @@ function App() {
 
     // Establecemos la ruta directa de la HomePage
     <BrowserRouter>
+    <ScrollToTop/>
       <HeaderComponent />
       <Routes>
         <Route element={<RoutesWithUserComponent />} >
@@ -52,7 +54,7 @@ function App() {
           {/*Publicly available routes:*/}
           <Route path="/" element={<HomePage />} />
           <Route path="/product-list" element={<ProductListPage />} />
-          <Route path="/product-detail" element={<ProductDetailsPage />} />
+          <Route path="/product-details" element={<ProductDetailsPage />} />
           <Route path="/product-detail/:id" element={<ProductDetailsPage />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/login" element={<LoginPage />} />

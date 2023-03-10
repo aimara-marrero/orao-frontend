@@ -5,10 +5,11 @@ import { Row, Container } from "react-bootstrap";
 const HomePage = () => {
     const categories = [
         "Hombre",
-        "Mujer"
+        "Mujer",
+        "games", 
+        "fdsvdsv",
     ]
     return (
-
         <>
             <ProductCarouselComponent />
             <Container>
